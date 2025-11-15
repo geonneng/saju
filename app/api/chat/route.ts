@@ -35,7 +35,7 @@ export async function POST(request: Request) {
 
 이 사주 정보를 바탕으로 사용자의 모든 질문에 친절하고 명확하게 답변해줘. 
 현대적이고 희망적인 어조를 유지하며, 사용자가 이해하기 쉽게 설명해줘.
-답변은 200자 내외로 간결하게 작성해줘.`
+답변은 구체적이고 실용적인 조언을 포함하여 200-300자 정도로 자세히 작성해줘.`
 
     // 채팅 히스토리 포맷팅
     const history = chatHistory?.map((msg: { role: string; content: string }) => ({
